@@ -2,14 +2,22 @@
 
 @implementation PresenceAppDelegate
 
-@synthesize window;
+@synthesize window, navigationController, personListController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
     // Override point for customization after application launch
 	[window addSubview:[navigationController view]];
-    [window makeKeyAndVisible];
+	[window makeKeyAndVisible];
+	
+	PersonListViewController *temp = [[PersonListViewController alloc] initWithNibName:@"PersonListView" bundle:[NSBundle mainBundle]];
+	[self setPersonListController:temp];
+	[temp release];
+	
+	[navigationController setEditing:NO];	
+	[navigationController pushViewController:personListController animated:NO];
+
 }
 
 
