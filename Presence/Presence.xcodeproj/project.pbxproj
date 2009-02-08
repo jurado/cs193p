@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		01F6CC4A0F3F57D5004E316F /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F6CC490F3F57D5004E316F /* PersonListViewController.m */; };
 		01F6CC5C0F3F5AB5004E316F /* PersonListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F6CC5B0F3F5AB5004E316F /* PersonListView.xib */; };
+		01F6CC6E0F3F5F12004E316F /* tom.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F6CC6B0F3F5F12004E316F /* tom.png */; };
+		01F6CC6F0F3F5F12004E316F /* jorge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F6CC6C0F3F5F12004E316F /* jorge.jpg */; };
+		01F6CC780F3F6048004E316F /* nara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F6CC770F3F6048004E316F /* nara.jpg */; };
 		1D3623260D0F684500981E51 /* PresenceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PresenceAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -21,6 +24,9 @@
 		01F6CC480F3F57D5004E316F /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
 		01F6CC490F3F57D5004E316F /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
 		01F6CC5B0F3F5AB5004E316F /* PersonListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonListView.xib; sourceTree = "<group>"; };
+		01F6CC6B0F3F5F12004E316F /* tom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tom.png; sourceTree = "<group>"; };
+		01F6CC6C0F3F5F12004E316F /* jorge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jorge.jpg; sourceTree = "<group>"; };
+		01F6CC770F3F6048004E316F /* nara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nara.jpg; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* PresenceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenceAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* PresenceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenceAppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01F6CC770F3F6048004E316F /* nara.jpg */,
+				01F6CC6B0F3F5F12004E316F /* tom.png */,
+				01F6CC6C0F3F5F12004E316F /* jorge.jpg */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				01F6CC5B0F3F5AB5004E316F /* PersonListView.xib */,
@@ -151,6 +160,9 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				01F6CC5C0F3F5AB5004E316F /* PersonListView.xib in Resources */,
+				01F6CC6E0F3F5F12004E316F /* tom.png in Resources */,
+				01F6CC6F0F3F5F12004E316F /* jorge.jpg in Resources */,
+				01F6CC780F3F6048004E316F /* nara.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
